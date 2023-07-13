@@ -1,0 +1,11 @@
+`
+1.currying function 
+2.Debouncing        
+3.Throttling        
+
+
+
+
+
+
+`

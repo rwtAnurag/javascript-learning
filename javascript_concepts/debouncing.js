@@ -20,7 +20,7 @@ function debounce (fn, duration){
     return function(){
         let context=this;
         args=arguments;
-        console.log("print this",args)
+        // console.log("print this",args)
         clearTimeout(timer)
         timer = setTimeout(()=>{
             getData.apply(context,args)

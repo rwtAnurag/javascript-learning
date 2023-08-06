@@ -1,20 +1,11 @@
-const parentElement = document.getElementById("parent");
-const child = document.getElementById("child");
-const subchild = document.getElementById("subchild");
+let obj= {
+  name:"Anurag",
+  age:"24"
 
-const handleClickChild =()=>{
-    console.log("child")
 }
 
-const handleClickParent =()=>{
-    console.log("parent")
-}
-
-const handleClickSubChild =()=>{
-    console.log("sub child")
-}
-
-parentElement.addEventListener("click",handleClickParent,false)
-child.addEventListener("click",handleClickChild,true)
-subchild.addEventListener("click",handleClickSubChild,true)
-
+const obj2= obj //JSON.parse(JSON.stringify(obj))
+console.log(obj2)
+obj2.name="Dhanush";
+ 
+console.log(obj,obj2)

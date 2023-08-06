@@ -21,11 +21,24 @@ Car.prototype.break = function (){
 const bmw = new Car("bmw",280)
 const mercedes = new Car("mercedes", 310) 
 
-console.log(bmw)
-console.log(mercedes)
+// console.log(bmw)
+// console.log(mercedes)
 
-bmw.accelerate()
-bmw.accelerate()
-bmw.accelerate()
-bmw.accelerate()
-bmw.break()
+// bmw.accelerate()
+// bmw.accelerate()
+// bmw.accelerate()
+// bmw.accelerate()
+// bmw.break()
+
+
+let object1= {
+     firstName:"Anurag",
+     lastname:"Rawat",
+     city:"Lucknow"
+}
+
+function func (){
+
+}
+console.log(func.__proto__.__proto__)
+console.log(Function.prototype)

@@ -1,11 +1,12 @@
-let obj= {
-  name:"Anurag",
-  age:"24"
+console.log(1)
 
-}
-
-const obj2= obj //JSON.parse(JSON.stringify(obj))
-console.log(obj2)
-obj2.name="Dhanush";
- 
-console.log(obj,obj2)
+new Promise((resolve)=>{
+  setTimeout(()=>{
+    console.log(2)
+  })
+  resolve()
+}).then(()=>{
+  setTimeout(()=>{
+    console.log(3)
+  })
+})

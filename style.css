@@ -1,0 +1,11 @@
+.div-cls[abc="text"]{
+  background-color:  black;
+  height: 20px;
+  width: 20px;
+}
+
+.div-cls[abc="number"]{
+    background-color: rgb(33, 23, 220);
+    height: 20px;
+    width: 20px;
+  }

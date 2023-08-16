@@ -6,5 +6,5 @@ Function.prototype.myCall = function (context={}, ...args) {
             throw new Error(this + "is Not a Function")
         }
         context.fn = this;
-        context.fn(...args)
+        context.fn(...args) 
 }
